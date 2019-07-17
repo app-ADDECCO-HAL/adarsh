@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <project name="java-ant project" default="run">  
-  <target name="create" depends="run">
+  <target name="create">
     <echo>this is my first ant project</echo>
   </target>
 </project>  
