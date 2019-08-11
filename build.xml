@@ -1,21 +1,6 @@
 <project name="MyProject" basedir=".">
 
-   
-
-   
-
-    <target name="clean">
-        <delete dir="${dir.build}"/>
+  <target name="clean">
+   <echo>This is my first ant project</echo>
     </target>
-
-
-    <target name="init" depends="clean">
-        <mkdir dir="${dir.build}"/>
-        <mkdir dir="${dir.build.classes}"/>
-    </target>
-
-
-   
-   
-
 </project>
